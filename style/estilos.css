@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 60vh;
+    flex-direction: column;
+  }
+
+  main{
+      flex: 1;
+  }
+
+nav{
+    z-index: 1000;
+    position: fixed;
+    background-color: #fafafa;
+}
+
+.button-collapse{
+    color: #000;
+}
+
+nav ul a{
+    color: #000;
+}
+
+nav .brand-logo{
+    color: #000;
+    margin-left: 5%;
+}
+
+nav ul.right{
+    margin-right: 10% !important;
+}
+
+nav ul li:hover a{
+    background: none;
+}
+
+
+.imgin{
+    width: 40px;
+    height: 40px;
+}
+
+.dropdown-content{
+    width: 370px !important;
+    top:62px !important;
+    box-shadow: -2px 2px 8px   rgba(190, 182, 182, 0.75);
+}
+
+.dropdown-content li:hover{
+    background-color: #fff !important;
+}
+
+.despegar {
+    background: #fff;
+    height: 24px;
+    right: 16px ;
+    top: -10px;
+    transform: rotate(45deg);
+    width: 24px;
+    z-index: 2;
+    position: absolute; 
+}
+
+.dropdown-content li>a {
+    font-size: 12px;
+    color: #000;
+    line-height: 29px;
+}
+
+.comen{
+    font-size: 11px;
+}
+
+.comen1{
+    width: 150px;
+}
+
+
+section{
+    min-height: 80vh;    
+    width: 100%;
+    padding-top: 3%;
+    background: #efefef;
+    display: table; 
+}
+
+div.card{
+    margin-top: 80px;
+    border-radius: 3px;
+    padding: 0 !important;
+}
+
+
+div.borde{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid;
+    margin-bottom: 2PX;
+    padding: 12px;
+}
+
+.dentro{
+    width: 99%;
+    margin: auto;
+}
+
+.imgdentro{
+    width: 100%;
+}
+
+.chip{
+    background-color:#fff;
+}
+
+.cursor1{
+    cursor: pointer;
+}
+
+.page-footer{
+    background-color: #fafafa;
+}
+
+.white-text, .grey-text.text-lighten-4, .page-footer .footer-copyright{
+   color:#000 !important;
+}
+
+.img1{
+    margin: 13px 0 0 0;  
+    background-color: #fafafa;
+    width: 24px;
+    
+}
+
+.side-nav .collapsible{
+    color: #000;
+}
+
+.img2{
+    margin: 12px 0 0 0;  
+    width: 22px;    
+}
+
+.esconder{
+    display: none;
+}
+
+.side-nav li>a{
+    margin:0 95px 0 95px;
+}
+
+.side-nav .collapsible{
+    margin:0 108px 0 108px;
+    
+}
+
+.side-nav li:hover a, .side-nav .collapsible-header:hover,.side-nav li.active{
+    background: none;
+}
+
+
+div.chip3{
+    margin-top: 80px;
+}
+
+.ti_per, .ti_per1 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;
+    font-weight: 300;
+    position: absolute;
+    right: 0;
+}
+
+.ti_per1{
+    right: 0 !important;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 300;    
+}
+
+.chip2{
+    width: 20%;
+    margin-left: 10%;
+    border-radius: 50%;    
+}
+
+.container1{
+    width: 65%;
+    margin: 130px auto;
+    overflow:  hidden;
+}
+
+.img-dentro{
+    padding: 0 !important;
+    overflow:hidden;
+    margin-left: 6% !important;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.card-content div{
+    display: none;
+}
+.cora{
+    width: 22px;
+}
+
+.chip4{
+    font-size: 10px;
+    width: 150px;
+}
+
+.contenido_a_mostrar{
+    width: 27px;
+}
+
+.img-goku{
+    width:100%;
+    margin-top: 5px !important;
+}
+
+.boton{
+    border-radius: 3px;
+    color: white;
+    width: 45%; 
+    margin:20px auto 30px auto;
+}
+
+.img-goku1{
+    width:30%;
+    margin-top: 30px !important;
+    margin: auto;
+}
+
+.letra1{
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.letra2{
+    margin-top: 2px;
+}
+
+.borde1{
+    border-radius: 3px;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 600px){
+    .ti_per, .ti_per1 {
+        font-size: 14px;
+    }
+
+    .chip2{
+        width: 25%;
+        border-radius: 50%;    
+    }
+}
+
+
+
